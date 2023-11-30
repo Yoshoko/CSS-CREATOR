@@ -1,0 +1,19 @@
+.yoshiko {
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #778899;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-arvo {
+    font-family: 'Arvo', serif;
+}
+
+.font-rubik {
+    font-family: 'Rubik', sans-serif;
+}
