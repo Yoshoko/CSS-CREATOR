@@ -5,11 +5,15 @@ const btnColors = document.querySelectorAll(".color");
 const btnBgColors = document.querySelectorAll(".bgcolor")
 
 const selectFont = document.getElementById("Font");
+const selectFontSize = document.getElementById("FontSize")
 
 selectFont.onchange = function () {
     yoshiko.style.fontFamily = selectFont.value;
 };
 
+selectFontSize.onchange = function () {
+    yoshiko.style.fontSize = selectFontSize.value + "px";
+}
 
 console.log(yoshiko);
 console.log(btnColors);
